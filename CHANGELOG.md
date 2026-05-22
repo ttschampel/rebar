@@ -9,6 +9,24 @@ All notable changes to rebar. Versioned with [semver](https://semver.org/).
 
 ---
 
+## [3.1.0-alpha](https://github.com/ttschampel/rebar/compare/v3.0.1-alpha...v3.1.0-alpha) (2026-05-22)
+
+
+### Features
+
+* add spec export/import/sync for framework-agnostic interop ([f705e10](https://github.com/ttschampel/rebar/commit/f705e109a7077c94d7f9333d03a4eb0c97c03492))
+* auto-init integrity tracking in adopt and new commands ([9dc8995](https://github.com/ttschampel/rebar/commit/9dc8995aae2e94c1ce190470d4222b33c04d91a6))
+* **rebar:** versioned framework + tier-aware audit + minimal adoptin… ([135c697](https://github.com/ttschampel/rebar/commit/135c6979ee047241096df3ff24595c19cbb49a03))
+* **rebar:** versioned framework + tier-aware audit + minimal adopting repos ([5041144](https://github.com/ttschampel/rebar/commit/50411447ac85e2be220132d2ce94808eea3dd930))
+
+
+### Bug Fixes
+
+* configure release-please target branch + add framework files to archive ([9c2c657](https://github.com/ttschampel/rebar/commit/9c2c65779cf335d5390f550254fdafdfdbf75f8b))
+* scope all CLI scans to consumer repo via git-tracked files ([e34258d](https://github.com/ttschampel/rebar/commit/e34258d19734c0745a5238c8de2620c95c164c54))
+* scope CLI scans to consumer repo boundaries ([deb4a94](https://github.com/ttschampel/rebar/commit/deb4a9478e7d16f9c9bedfa318b053d978c2f20a))
+* use generic type for .rebar-version extra-file ([ebb2674](https://github.com/ttschampel/rebar/commit/ebb2674778a43f4331b9fbfaac2005d4d43bfaf5))
+
 ## v2.0.1 (2026-04-26)
 
 ### Fixed
